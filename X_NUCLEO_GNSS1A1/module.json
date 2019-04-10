@@ -1,0 +1,31 @@
+{
+  "name": "X_NUCLEO_GNSS1A1",
+  "version": "1.0.0",
+  "description": "GPSProvider wrapper library for STMicroelectronics' X-NUCLEO-GNSS1A1 Expansion Board.",
+  "keywords": [
+    "expansion",
+    "board",
+    "x-nucleo",
+    "nucleo",
+    "ST",
+    "STM",
+    "GPS",
+    "GNSS"
+  ],
+  "author": "Andrea Palmieri",
+  "repository": {
+    "url": "os.mbed.com/teams/ST/code/X_NUCLEO_GNSS1A1/",
+    "type": "hg"
+  },
+  "homepage": "https://os.mbed.com/teams/ST/code/X_NUCLEO_GNSS1A1/",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    }
+  ],
+  "dependencies": {
+    "mbed-os": "^5.11.4",
+    "GPS_Provider": "^1.0.0"
+  }
+}
